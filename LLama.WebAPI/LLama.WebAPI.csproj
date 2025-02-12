@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LLama\LLamaSharp.csproj" />
+    <ProjectReference Include="..\LLama\LlmToolkit.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -40,12 +40,11 @@
 	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
 		<PackageReference Include="System.Memory" Version="4.6.0" PrivateAssets="all" />
 	</ItemGroup>
-
-	<ItemGroup>
-		<ProjectReference Include="..\LLama\LLamaSharp.csproj" />
-	</ItemGroup>
 	<ItemGroup>
 		<InternalsVisibleTo Include="Llama.Unittest" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\LLama\LlmToolkit.csproj" />
 	</ItemGroup>
 
 </Project>
