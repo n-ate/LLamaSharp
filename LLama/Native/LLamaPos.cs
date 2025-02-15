@@ -1,4 +1,4 @@
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// Indicates position in a sequence

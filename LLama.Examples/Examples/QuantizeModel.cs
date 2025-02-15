@@ -1,3 +1,5 @@
+using LlmToolkit;
+
 namespace LLama.Examples.Examples
 {
     public class QuantizeModel

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama.Extensions
+namespace LlmToolkit.Extensions
 {
     internal static class DictionaryExtensions
     {

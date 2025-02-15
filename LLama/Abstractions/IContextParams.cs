@@ -1,7 +1,7 @@
 using System.Text;
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama.Abstractions;
+namespace LlmToolkit.Abstractions;
 
 /// <summary>
 /// The parameters for initializing a LLama context from a model.

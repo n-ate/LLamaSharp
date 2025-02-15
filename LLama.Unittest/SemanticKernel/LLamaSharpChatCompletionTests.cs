@@ -1,4 +1,4 @@
-using LLama.Abstractions;
+using LlmToolkit.Abstractions;
 using LLamaSharp.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;

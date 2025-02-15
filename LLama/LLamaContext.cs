@@ -1,4 +1,4 @@
-using LLama.Native;
+using LlmToolkit.Native;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -6,11 +6,11 @@ using System.Text;
 using System.IO;
 using System.IO.MemoryMappedFiles;
 using System.Threading.Tasks;
-using LLama.Abstractions;
+using LlmToolkit.Abstractions;
 using Microsoft.Extensions.Logging;
 using System.Threading;
 
-namespace LLama
+namespace LlmToolkit
 {
     /// <summary>
     /// A llama_context, which holds all the context required to interact with a model

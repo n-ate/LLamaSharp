@@ -4,10 +4,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using LLama.Abstractions;
-using LLama.Native;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Native;
 
-namespace LLama.Batched;
+namespace LlmToolkit.Batched;
 
 /// <summary>
 /// A batched executor that can infer multiple separate "conversations" simultaneously.

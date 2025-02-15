@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using LLama.Abstractions;
-using LLama.Exceptions;
-using LLama.Native;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Exceptions;
+using LlmToolkit.Native;
 using Microsoft.Extensions.Logging;
 
-namespace LLama
+namespace LlmToolkit
 {
     /// <summary>
     /// A set of model weights, loaded into memory.

@@ -1,6 +1,7 @@
 using LLama.Web.Async;
 using LLama.Web.Common;
 using LLama.Web.Models;
+using LlmToolkit;
 using Microsoft.Extensions.Options;
 using System.Collections.Concurrent;
 

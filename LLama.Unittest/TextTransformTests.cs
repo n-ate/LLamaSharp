@@ -1,4 +1,6 @@
-﻿namespace LLama.Unittest
+using LlmToolkit;
+
+namespace LLama.Unittest
 {
     public sealed class TextTransformTests
     {

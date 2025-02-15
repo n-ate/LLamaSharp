@@ -3,9 +3,9 @@ using System.Buffers.Binary;
 using System.Diagnostics;
 using System.IO;
 using System.IO.MemoryMappedFiles;
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama.Batched;
+namespace LlmToolkit.Batched;
 
 internal static class LLamaContextExtensions
 {

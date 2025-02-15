@@ -1,11 +1,11 @@
-using LLama;
-using LLama.Abstractions;
+using LlmToolkit;
+using LlmToolkit.Abstractions;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 using System.Runtime.CompilerServices;
 using System.Text;
-using static LLama.InteractiveExecutor;
-using static LLama.LLamaTransforms;
+using static LlmToolkit.InteractiveExecutor;
+using static LlmToolkit.LLamaTransforms;
 
 namespace LLamaSharp.SemanticKernel.ChatCompletion;
 
@@ -44,9 +44,9 @@ public sealed class LLamaSharpChatCompletion : IChatCompletionService
         _isStatefulExecutor = _model is StatefulExecutorBase;
         _defaultRequestSettings = defaultRequestSettings ?? GetDefaultSettings();
         _historyTransform = historyTransform ?? new HistoryTransform();
-        _outputTransform = outputTransform ?? new KeywordTextOutputStreamTransform(new[] { $"{LLama.Common.AuthorRole.User}:",
-                                                                                            $"{LLama.Common.AuthorRole.Assistant}:",
-                                                                                            $"{LLama.Common.AuthorRole.System}:"});
+        _outputTransform = outputTransform ?? new KeywordTextOutputStreamTransform(new[] { $"{AuthorRole.User}:",
+                                                                                            $"{AuthorRole.Assistant}:",
+                                                                                            $"{AuthorRole.System}:"});
     }
 
     public ChatHistory CreateNewChat(string? instructions = "")

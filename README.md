@@ -120,7 +120,7 @@ Generally, we recommend downloading models with quantization rather than fp16, b
 Here is a simple example to chat with a bot based on a LLM in LLamaSharp. Please replace the model path with yours.
 
 ```cs
-using LLama.Common;
+using LlmToolkit.Common;
 using LLama;
 
 string modelPath = @"<Your Model Path>"; // change it to your own model path.

@@ -5,11 +5,11 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using LLama.Common;
-using LLama.Sampling;
+using LlmToolkit.Common;
+using LlmToolkit.Sampling;
 using Microsoft.Extensions.AI;
 
-namespace LLama.Abstractions;
+namespace LlmToolkit.Abstractions;
 
 /// <summary>
 /// Extension methods to the <see cref="LLamaExecutorExtensions" /> interface.

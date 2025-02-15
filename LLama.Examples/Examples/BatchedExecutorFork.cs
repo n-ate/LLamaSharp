@@ -1,6 +1,7 @@
-using LLama.Batched;
-using LLama.Common;
-using LLama.Sampling;
+using LlmToolkit;
+using LlmToolkit.Batched;
+using LlmToolkit.Common;
+using LlmToolkit.Sampling;
 using Spectre.Console;
 
 namespace LLama.Examples.Examples;

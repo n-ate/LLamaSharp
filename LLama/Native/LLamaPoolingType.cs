@@ -1,6 +1,6 @@
-using LLama.Abstractions;
+using LlmToolkit.Abstractions;
 
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// 

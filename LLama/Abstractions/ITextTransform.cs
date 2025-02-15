@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
-using LLama.Common;
+using LlmToolkit.Common;
 
-namespace LLama.Abstractions
+namespace LlmToolkit.Abstractions
 {
     /// <summary>
     /// An interface for text transformations.

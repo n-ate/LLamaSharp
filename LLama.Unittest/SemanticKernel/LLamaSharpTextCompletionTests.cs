@@ -1,4 +1,4 @@
-using LLama.Abstractions;
+using LlmToolkit.Abstractions;
 using LLamaSharp.SemanticKernel.TextCompletion;
 using Microsoft.SemanticKernel;
 using Moq;

@@ -1,4 +1,4 @@
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// ID for a sequence in a batch

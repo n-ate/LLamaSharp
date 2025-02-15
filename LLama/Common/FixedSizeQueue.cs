@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LLama.Common
+namespace LlmToolkit.Common
 {
     /// <summary>
     /// A queue with fixed storage size.

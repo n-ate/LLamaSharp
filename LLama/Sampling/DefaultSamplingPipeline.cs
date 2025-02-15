@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama.Sampling;
+namespace LlmToolkit.Sampling;
 
 /// <summary>
 /// An implementation of ISamplePipeline which mimics the default llama.cpp sampling

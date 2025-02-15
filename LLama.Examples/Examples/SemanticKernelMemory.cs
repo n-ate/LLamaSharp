@@ -1,6 +1,7 @@
-using LLama.Common;
+using LlmToolkit.Common;
 using Microsoft.SemanticKernel.Memory;
 using LLamaSharp.SemanticKernel.TextEmbedding;
+using LlmToolkit;
 
 namespace LLama.Examples.Examples
 {

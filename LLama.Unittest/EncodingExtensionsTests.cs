@@ -1,5 +1,5 @@
-﻿using System.Text;
-using EncodingExtensions = LLama.Extensions.EncodingExtensions;
+using System.Text;
+using EncodingExtensions = LlmToolkit.Extensions.EncodingExtensions;
 
 namespace LLama.Unittest
 {

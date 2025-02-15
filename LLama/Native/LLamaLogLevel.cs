@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.Logging;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// Severity level of a log message. This enum should always be aligned with

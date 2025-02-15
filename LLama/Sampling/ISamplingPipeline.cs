@@ -1,7 +1,7 @@
 using System;
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama.Sampling;
+namespace LlmToolkit.Sampling;
 
 /// <summary>
 /// Convert a span of logits into a single sampled token. This interface can be implemented to completely customise the sampling process.

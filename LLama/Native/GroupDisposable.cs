@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// Disposes all contained disposables when this class is disposed

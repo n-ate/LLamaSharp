@@ -1,7 +1,7 @@
-using LLama.Abstractions;
-using LLama.Common;
-using LLama.Exceptions;
-using LLama.Native;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Common;
+using LlmToolkit.Exceptions;
+using LlmToolkit.Native;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -12,7 +12,7 @@ using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LLama
+namespace LlmToolkit
 {
     /// <summary>
     /// The base class for stateful LLama executors.

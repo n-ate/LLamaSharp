@@ -1,4 +1,5 @@
-using LLama.Common;
+using LlmToolkit;
+using LlmToolkit.Common;
 using NAudio.Wave;
 using Spectre.Console;
 using Whisper.net;

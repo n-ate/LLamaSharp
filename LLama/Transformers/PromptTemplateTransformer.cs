@@ -1,7 +1,7 @@
-using LLama.Abstractions;
-using LLama.Common;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Common;
 
-namespace LLama.Transformers;
+namespace LlmToolkit.Transformers;
 
 /// <summary>
 /// A prompt formatter that will use llama.cpp's template formatter

@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using LLama.Abstractions;
+using LlmToolkit.Abstractions;
 using Microsoft.Extensions.Logging;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
 #if NET6_0_OR_GREATER
     /// <summary>

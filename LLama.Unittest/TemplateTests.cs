@@ -1,8 +1,9 @@
 using System.Text;
-using LLama.Common;
-using LLama.Extensions;
-using LLama.Native;
+using LlmToolkit.Common;
+using LlmToolkit.Native;
 using Xunit.Abstractions;
+using LlmToolkit;
+using LlmToolkit.Extensions;
 
 namespace LLama.Unittest;
 

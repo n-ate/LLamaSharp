@@ -1,6 +1,7 @@
-using LLama.Common;
+using LlmToolkit.Common;
 using LLama.Examples.Extensions;
-using LLama.Sampling;
+using LlmToolkit.Sampling;
+using LlmToolkit;
 
 namespace LLama.Examples.Examples
 {

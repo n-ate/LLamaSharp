@@ -1,6 +1,6 @@
 using System;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// Quantizer parameters used in the native API

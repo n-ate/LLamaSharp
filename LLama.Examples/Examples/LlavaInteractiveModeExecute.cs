@@ -1,8 +1,9 @@
 using System.Text.RegularExpressions;
-using LLama.Common;
+using LlmToolkit.Common;
 using Spectre.Console;
-using LLama.Native;
-using LLama.Sampling;
+using LlmToolkit.Native;
+using LlmToolkit.Sampling;
+using LlmToolkit;
 
 namespace LLama.Examples.Examples
 {

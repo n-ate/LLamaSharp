@@ -1,6 +1,6 @@
-using LLama;
-using LLama.Common;
-using LLama.Native;
+using LlmToolkit;
+using LlmToolkit.Common;
+using LlmToolkit.Native;
 using Microsoft.KernelMemory;
 using Microsoft.KernelMemory.AI;
 

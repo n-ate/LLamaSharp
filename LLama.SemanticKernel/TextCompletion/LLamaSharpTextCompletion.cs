@@ -1,4 +1,4 @@
-using LLama.Abstractions;
+using LlmToolkit.Abstractions;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.TextGeneration;
 using System.Runtime.CompilerServices;

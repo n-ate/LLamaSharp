@@ -1,8 +1,8 @@
-using LLama.Exceptions;
+using LlmToolkit.Exceptions;
 using System;
-using LLama.Abstractions;
+using LlmToolkit.Abstractions;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     public static partial class NativeApi
     {

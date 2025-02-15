@@ -1,6 +1,6 @@
 using System;
 
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// A LoRA adapter which can be applied to a context for a specific model

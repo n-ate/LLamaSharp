@@ -1,5 +1,5 @@
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// Information of a native library file.

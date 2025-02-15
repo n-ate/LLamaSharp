@@ -1,6 +1,7 @@
-using LLama.Common;
+using LlmToolkit;
+using LlmToolkit.Common;
 using System.Text;
-using static LLama.LLamaTransforms;
+using static LlmToolkit.LLamaTransforms;
 
 namespace LLama.WebAPI.Services
 {
@@ -11,7 +12,7 @@ namespace LLama.WebAPI.Services
 
         public StatelessChatService(IConfiguration configuration)
         {
-            var @params = new Common.ModelParams(configuration["ModelPath"]!)
+            var @params = new ModelParams(configuration["ModelPath"]!)
             {
                 ContextSize = 512,
             };

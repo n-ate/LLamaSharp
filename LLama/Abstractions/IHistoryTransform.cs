@@ -1,7 +1,7 @@
-﻿using LLama.Common;
+﻿using LlmToolkit.Common;
 using System.Text.Json.Serialization;
 
-namespace LLama.Abstractions
+namespace LlmToolkit.Abstractions
 {
     /// <summary>
     /// Transform history to plain text and vice versa.

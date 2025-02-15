@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using LLama.Abstractions;
-using LLama.Native;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Native;
 
-namespace LLama.Extensions
+namespace LlmToolkit.Extensions
 {
     /// <summary>
     /// Extension methods to the IContextParams interface

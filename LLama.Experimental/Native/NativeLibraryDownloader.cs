@@ -1,4 +1,5 @@
 using HuggingfaceHub;
+using LlmToolkit.Native;
 
 namespace LLama.Native
 {

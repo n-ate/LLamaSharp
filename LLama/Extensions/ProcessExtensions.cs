@@ -2,7 +2,7 @@ using System.Diagnostics;
 using System.Text;
 using System;
 
-namespace LLama.Extensions;
+namespace LlmToolkit.Extensions;
 
 internal static class ProcessExtensions
 {

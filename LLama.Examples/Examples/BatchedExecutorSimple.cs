@@ -1,8 +1,9 @@
 using System.Text;
-using LLama.Batched;
-using LLama.Common;
-using LLama.Native;
-using LLama.Sampling;
+using LlmToolkit;
+using LlmToolkit.Batched;
+using LlmToolkit.Common;
+using LlmToolkit.Native;
+using LlmToolkit.Sampling;
 using Spectre.Console;
 
 namespace LLama.Examples.Examples;

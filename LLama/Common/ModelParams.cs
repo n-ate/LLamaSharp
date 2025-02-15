@@ -1,10 +1,10 @@
-using LLama.Abstractions;
+using LlmToolkit.Abstractions;
 using System.Text;
 using System.Text.Json.Serialization;
-using LLama.Native;
+using LlmToolkit.Native;
 using System.Collections.Generic;
 
-namespace LLama.Common
+namespace LlmToolkit.Common
 {
     /// <summary>
     /// The parameters for initializing a LLama model.

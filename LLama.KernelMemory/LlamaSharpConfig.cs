@@ -1,5 +1,5 @@
-using LLama.Common;
-using LLama.Native;
+using LlmToolkit.Common;
+using LlmToolkit.Native;
 
 namespace LLamaSharp.KernelMemory
 {

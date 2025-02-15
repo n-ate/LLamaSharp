@@ -1,5 +1,5 @@
-using LLama.Common;
-using static LLama.LLamaTransforms;
+using LlmToolkit.Common;
+using static LlmToolkit.LLamaTransforms;
 
 namespace LLamaSharp.SemanticKernel.ChatCompletion;
 

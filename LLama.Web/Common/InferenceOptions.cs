@@ -1,9 +1,9 @@
 #nullable enable
 
-using LLama.Common;
-using LLama.Abstractions;
-using LLama.Native;
-using LLama.Sampling;
+using LlmToolkit.Common;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Native;
+using LlmToolkit.Sampling;
 
 namespace LLama.Web.Common
 {

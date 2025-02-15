@@ -1,8 +1,8 @@
-using LLama.Abstractions;
+using LlmToolkit.Abstractions;
 using System;
 using System.Collections.Generic;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// When you are using .NET standard2.0, dynamic native library loading is not supported.

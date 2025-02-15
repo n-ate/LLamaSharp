@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
-namespace LLama
+namespace LlmToolkit
 {
     /// <summary>
     /// AntipromptProcessor keeps track of past tokens looking for any set Anti-Prompts

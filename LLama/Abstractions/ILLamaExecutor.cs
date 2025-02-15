@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
 
-namespace LLama.Abstractions
+namespace LlmToolkit.Abstractions
 {
     /// <summary>
     /// A high level interface for LLama models.

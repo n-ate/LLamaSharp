@@ -1,4 +1,5 @@
-﻿using LLamaSharp.KernelMemory;
+using LLamaSharp.KernelMemory;
+using LlmToolkit.Common;
 using Microsoft.KernelMemory;
 using Microsoft.KernelMemory.Configuration;
 using System.Diagnostics;
@@ -65,7 +66,7 @@ namespace LLama.Examples.Examples
 
         private static IKernelMemory CreateMemory(string modelPath)
         {
-            Common.InferenceParams infParams = new() { AntiPrompts = ["\n\n"] };
+            InferenceParams infParams = new() { AntiPrompts = ["\n\n"] };
 
             LLamaSharpConfig lsConfig = new(modelPath) { DefaultInferenceParams = infParams };
 

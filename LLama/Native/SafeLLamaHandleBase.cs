@@ -1,6 +1,6 @@
 using System;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// Base class for all llama handles to native resources

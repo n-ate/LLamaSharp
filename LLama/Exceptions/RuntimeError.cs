@@ -1,7 +1,7 @@
 using System;
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama.Exceptions;
+namespace LlmToolkit.Exceptions;
 
 /// <summary>
 /// Base class for LLamaSharp runtime errors (i.e. errors produced by llama.cpp, converted into exceptions)

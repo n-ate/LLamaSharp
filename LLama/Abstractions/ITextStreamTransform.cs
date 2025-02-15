@@ -1,8 +1,8 @@
-﻿using LLama.Common;
+﻿using LlmToolkit.Common;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace LLama.Abstractions
+namespace LlmToolkit.Abstractions
 {
     /// <summary>
     /// Takes a stream of tokens and transforms them.

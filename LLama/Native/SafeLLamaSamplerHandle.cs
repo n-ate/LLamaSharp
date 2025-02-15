@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// A chain of sampler stages that can be used to select tokens from logits.

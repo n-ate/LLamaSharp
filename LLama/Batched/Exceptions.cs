@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LLama.Batched;
+namespace LlmToolkit.Batched;
 
 /// <summary>
 /// Base class for exceptions thrown from <see cref="BatchedExecutor"/>

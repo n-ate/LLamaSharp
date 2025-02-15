@@ -2,9 +2,9 @@ using System.Diagnostics;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama
+namespace LlmToolkit
 {
     /// <summary>
     /// Decodes a stream of tokens into a stream of characters

@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
-using LLama.Exceptions;
-using LLama.Native;
+using LlmToolkit.Exceptions;
+using LlmToolkit.Native;
 
-namespace LLama;
+namespace LlmToolkit;
 
 /// <summary>
 /// Converts a sequence of messages into text according to a model template

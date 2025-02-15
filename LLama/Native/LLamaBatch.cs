@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// A batch allows submitting multiple tokens to multiple sequences simultaneously

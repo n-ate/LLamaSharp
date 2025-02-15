@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
-using LLama.Exceptions;
+using LlmToolkit.Exceptions;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// A safe wrapper around a llama_context

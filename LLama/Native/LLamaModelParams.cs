@@ -1,6 +1,6 @@
 using System;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// A C# representation of the llama.cpp `llama_model_params` struct

@@ -1,16 +1,16 @@
-using LLama.Abstractions;
-using LLama.Common;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading;
-using LLama.Exceptions;
-using LLama.Native;
-using LLama.Transformers;
+using LlmToolkit.Exceptions;
+using LlmToolkit.Native;
+using LlmToolkit.Transformers;
 using Microsoft.Extensions.Logging;
 
-namespace LLama
+namespace LlmToolkit
 {
     /// <summary>
     /// This executor infer the input as one-time job. Previous inputs won't impact on the 

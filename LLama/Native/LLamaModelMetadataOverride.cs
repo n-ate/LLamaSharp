@@ -1,4 +1,4 @@
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// Override a key/value pair in the llama model metadata (llama_model_kv_override)

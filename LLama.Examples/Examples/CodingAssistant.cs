@@ -1,8 +1,9 @@
-using LLama.Sampling;
+using LlmToolkit.Sampling;
 
 namespace LLama.Examples.Examples
 {
-    using LLama.Common;
+    using LlmToolkit;
+    using LlmToolkit.Common;
     using System;
 
     internal class CodingAssistant

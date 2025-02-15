@@ -1,6 +1,6 @@
-using LLama.Common;
-using LLama.Native;
-using LLama.Abstractions;
+using LlmToolkit.Common;
+using LlmToolkit.Native;
+using LlmToolkit.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,12 +8,12 @@ using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using LLama.Exceptions;
-using LLama.Sampling;
+using LlmToolkit.Exceptions;
+using LlmToolkit.Sampling;
 using Microsoft.Extensions.Logging;
 
 
-namespace LLama
+namespace LlmToolkit
 {
     /// <summary>
     /// The LLama executor for interactive mode.

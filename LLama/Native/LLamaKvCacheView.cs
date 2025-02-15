@@ -1,6 +1,6 @@
 using System;
 
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// A safe handle for a LLamaKvCacheView

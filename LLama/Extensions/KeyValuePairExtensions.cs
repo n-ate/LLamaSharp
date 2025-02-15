@@ -1,4 +1,4 @@
-﻿namespace LLama.Extensions;
+﻿namespace LlmToolkit.Extensions;
 
 /// <summary>
 /// Extensions to the KeyValuePair struct

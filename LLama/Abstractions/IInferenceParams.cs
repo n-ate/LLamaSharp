@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using LLama.Sampling;
+using LlmToolkit.Sampling;
 
-namespace LLama.Abstractions
+namespace LlmToolkit.Abstractions
 {  
     /// <summary>
     /// The parameters used for inference.

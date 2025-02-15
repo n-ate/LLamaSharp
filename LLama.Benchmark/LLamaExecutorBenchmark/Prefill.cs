@@ -4,9 +4,10 @@ using System.Text;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Engines;
 using BenchmarkDotNet.Jobs;
-using LLama.Abstractions;
-using LLama.Common;
-using LLama.Native;
+using LlmToolkit;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Common;
+using LlmToolkit.Native;
 
 namespace LLama.Benchmark.LLamaExecutorBenchmark
 {

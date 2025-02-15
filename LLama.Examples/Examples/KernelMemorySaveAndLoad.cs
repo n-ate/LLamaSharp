@@ -5,6 +5,7 @@ using Microsoft.KernelMemory.FileSystem.DevTools;
 using Microsoft.KernelMemory.MemoryStorage.DevTools;
 using System.Diagnostics;
 using Microsoft.KernelMemory.DocumentStorage.DevTools;
+using LlmToolkit.Common;
 
 namespace LLama.Examples.Examples;
 
@@ -60,7 +61,7 @@ public class KernelMemorySaveAndLoad
 
     private static IKernelMemory CreateMemoryWithLocalStorage(string modelPath)
     {
-        Common.InferenceParams infParams = new() { AntiPrompts = ["\n\n"] };
+        InferenceParams infParams = new() { AntiPrompts = ["\n\n"] };
 
         LLamaSharpConfig lsConfig = new(modelPath) { DefaultInferenceParams = infParams };
 

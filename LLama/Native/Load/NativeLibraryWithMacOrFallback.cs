@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using LLama.Abstractions;
+using LlmToolkit.Abstractions;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
 #if NET6_0_OR_GREATER
     /// <summary>

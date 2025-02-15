@@ -1,11 +1,11 @@
-using LLama.Abstractions;
-using LLama.Common;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Common;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
 
-namespace LLama
+namespace LlmToolkit
 {
     /// <summary>
     /// A class that contains all the transforms provided internally by LLama.

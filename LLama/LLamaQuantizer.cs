@@ -1,8 +1,8 @@
-using LLama.Native;
+using LlmToolkit.Native;
 using System;
 using System.Collections.Generic;
 
-namespace LLama
+namespace LlmToolkit
 {
     /// <summary>
     /// The quantizer to quantize the model.

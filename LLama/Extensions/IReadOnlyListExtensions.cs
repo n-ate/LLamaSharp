@@ -2,9 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama.Extensions
+namespace LlmToolkit.Extensions
 {
     internal static class IReadOnlyListExtensions
     {

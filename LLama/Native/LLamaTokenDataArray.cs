@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Numerics.Tensors;
 using System.Runtime.CompilerServices;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// Contains an array of LLamaTokenData, potentially sorted.

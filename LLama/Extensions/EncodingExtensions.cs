@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace LLama.Extensions;
+namespace LlmToolkit.Extensions;
 
 internal static class EncodingExtensions
 {

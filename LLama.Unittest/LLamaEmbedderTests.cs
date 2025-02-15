@@ -1,6 +1,7 @@
-using LLama.Common;
-using LLama.Extensions;
-using LLama.Native;
+using LlmToolkit;
+using LlmToolkit.Common;
+using LlmToolkit.Extensions;
+using LlmToolkit.Native;
 using Microsoft.Extensions.AI;
 using Xunit.Abstractions;
 

@@ -2,7 +2,7 @@ using System;
 using System.IO;
 
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// A Reference to a llava Image Embed handle

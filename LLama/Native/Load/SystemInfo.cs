@@ -4,7 +4,7 @@ using System.IO;
 using System.Text.Json;
 using System.Text.RegularExpressions;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// Operating system information.

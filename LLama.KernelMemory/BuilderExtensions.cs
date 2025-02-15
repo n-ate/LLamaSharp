@@ -1,7 +1,7 @@
 using Microsoft.KernelMemory;
-using LLama;
-using LLama.Common;
+using LlmToolkit.Common;
 using Microsoft.KernelMemory.AI;
+using LlmToolkit;
 
 namespace LLamaSharp.KernelMemory
 {

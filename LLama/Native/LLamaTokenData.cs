@@ -1,4 +1,4 @@
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// A single token along with probability of this token being selected

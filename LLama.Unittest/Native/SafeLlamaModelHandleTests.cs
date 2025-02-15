@@ -1,7 +1,8 @@
 using System.Text;
-using LLama.Common;
-using LLama.Native;
-using LLama.Extensions;
+using LlmToolkit.Common;
+using LlmToolkit.Native;
+using LlmToolkit;
+using LlmToolkit.Extensions;
 
 namespace LLama.Unittest.Native;
 

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using LLama.Native;
+using LlmToolkit.Native;
 using Microsoft.Extensions.AI;
 
-namespace LLama;
+namespace LlmToolkit;
 
 public partial class LLamaEmbedder
     : IEmbeddingGenerator<string, Embedding<float>>

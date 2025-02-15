@@ -1,8 +1,8 @@
 using System;
-using LLama.Native;
-using LLama.Sampling;
+using LlmToolkit.Native;
+using LlmToolkit.Sampling;
 
-namespace LLama.Batched;
+namespace LlmToolkit.Batched;
 
 /// <summary>
 /// Extension method for <see cref="Conversation"/>

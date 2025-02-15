@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using LLama.Exceptions;
+using LlmToolkit.Exceptions;
 
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// A reference to a set of llava model weights.

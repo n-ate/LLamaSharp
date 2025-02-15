@@ -1,19 +1,20 @@
-using LLama.Sampling;
-using Microsoft.SemanticKernel.ChatCompletion;
-using AuthorRole = LLama.Common.AuthorRole;
+using LlmToolkit.Common;
+using LlmToolkit.Sampling;
+using chatHist = Microsoft.SemanticKernel.ChatCompletion.ChatHistory;
+using AuthorRole = LlmToolkit.Common.AuthorRole;
 
 namespace LLamaSharp.SemanticKernel;
 
 public static class ExtensionMethods
 {
-    public static LLama.Common.ChatHistory ToLLamaSharpChatHistory(this ChatHistory chatHistory, bool ignoreCase = true)
+    public static ChatHistory ToLLamaSharpChatHistory(this chatHist chatHistory, bool ignoreCase = true)
     {
         if (chatHistory is null)
         {
             throw new ArgumentNullException(nameof(chatHistory));
         }
 
-        var history = new LLama.Common.ChatHistory();
+        var history = new ChatHistory();
 
         foreach (var chat in chatHistory)
         {
@@ -31,7 +32,7 @@ public static class ExtensionMethods
     /// </summary>
     /// <param name="requestSettings"></param>
     /// <returns></returns>
-    internal static LLama.Common.InferenceParams ToLLamaSharpInferenceParams(this LLamaSharpPromptExecutionSettings requestSettings)
+    internal static InferenceParams ToLLamaSharpInferenceParams(this LLamaSharpPromptExecutionSettings requestSettings)
     {
         if (requestSettings is null)
         {
@@ -44,7 +45,7 @@ public static class ExtensionMethods
             $"{AuthorRole.Assistant}:",
             $"{AuthorRole.System}:"
         };
-        return new LLama.Common.InferenceParams
+        return new InferenceParams
         {
             AntiPrompts = antiPrompts,
             MaxTokens = requestSettings.MaxTokens ?? -1,

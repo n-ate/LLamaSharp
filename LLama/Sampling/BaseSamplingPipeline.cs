@@ -1,7 +1,7 @@
 using System;
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama.Sampling;
+namespace LlmToolkit.Sampling;
 
 /// <inheritdoc />
 public abstract class BaseSamplingPipeline

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace LLama.Extensions;
+namespace LlmToolkit.Extensions;
 
 internal static class SpanExtensions
 {

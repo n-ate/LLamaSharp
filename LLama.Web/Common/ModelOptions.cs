@@ -1,6 +1,6 @@
 using System.Text;
-using LLama.Abstractions;
-using LLama.Native;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Native;
 
 namespace LLama.Web.Common
 {

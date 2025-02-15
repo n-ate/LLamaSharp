@@ -1,4 +1,4 @@
-using LLama.Native;
+using LlmToolkit.Native;
 using Spectre.Console;
 
 AnsiConsole.MarkupLineInterpolated(

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// An embeddings batch allows submitting embeddings to multiple sequences simultaneously

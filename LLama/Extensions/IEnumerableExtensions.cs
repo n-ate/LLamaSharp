@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace LLama.Extensions
+namespace LlmToolkit.Extensions
 {
     internal static class IEnumerableExtensions
     {

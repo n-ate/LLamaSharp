@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
-using LLama.Exceptions;
+using LlmToolkit.Exceptions;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// A reference to a set of llama model weights

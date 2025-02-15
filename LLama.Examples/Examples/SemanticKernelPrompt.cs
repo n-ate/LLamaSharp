@@ -1,9 +1,10 @@
-﻿using LLama.Common;
+using LlmToolkit.Common;
 using Microsoft.SemanticKernel;
 using LLamaSharp.SemanticKernel.TextCompletion;
 using Microsoft.SemanticKernel.TextGeneration;
 using Microsoft.Extensions.DependencyInjection;
 using LLamaSharp.SemanticKernel;
+using LlmToolkit;
 
 namespace LLama.Examples.Examples
 {

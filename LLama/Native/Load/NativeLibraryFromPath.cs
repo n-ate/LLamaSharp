@@ -1,7 +1,7 @@
-﻿using LLama.Abstractions;
+﻿using LlmToolkit.Abstractions;
 using System.Collections.Generic;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// A native library specified with a local file path.

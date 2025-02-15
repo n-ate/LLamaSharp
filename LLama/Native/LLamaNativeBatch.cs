@@ -1,4 +1,4 @@
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// Input data for llama_decode

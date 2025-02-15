@@ -1,5 +1,6 @@
-using LLama.Common;
-using LLama.Native;
+using LlmToolkit;
+using LlmToolkit.Common;
+using LlmToolkit.Native;
 using System.Numerics.Tensors;
 using System.Text;
 

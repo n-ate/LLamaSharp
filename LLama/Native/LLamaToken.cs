@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace LLama.Native;
+namespace LlmToolkit.Native;
 
 /// <summary>
 /// A single token

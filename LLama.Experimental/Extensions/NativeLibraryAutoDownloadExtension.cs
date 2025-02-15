@@ -1,4 +1,5 @@
 using LLama.Experimental.Native;
+using LlmToolkit.Native;
 
 namespace LLama.Native
 {

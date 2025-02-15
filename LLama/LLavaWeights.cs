@@ -2,9 +2,9 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama;
+namespace LlmToolkit;
 
 /// <summary>
 /// A set of llava model weights (mmproj), loaded into memory.

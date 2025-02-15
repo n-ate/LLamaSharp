@@ -1,7 +1,7 @@
-using LLama.Native;
+using LlmToolkit.Native;
 using System.Collections.Generic;
 
-namespace LLama.Abstractions
+namespace LlmToolkit.Abstractions
 {
     /// <summary>
     /// Descriptor of a native library.

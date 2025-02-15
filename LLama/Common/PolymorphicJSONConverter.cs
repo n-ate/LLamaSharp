@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace LLama.Common
+namespace LlmToolkit.Common
 {
     internal class PolymorphicJSONConverter<T> : JsonConverter<T>
     {

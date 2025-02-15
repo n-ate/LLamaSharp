@@ -1,4 +1,4 @@
-using LLama.Common;
+using LlmToolkit.Common;
 using LLamaSharp.SemanticKernel;
 using LLamaSharp.SemanticKernel.ChatCompletion;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,6 +10,7 @@ using Microsoft.SemanticKernel.ChatCompletion;
 using System.ComponentModel;
 using AuthorRole = Microsoft.SemanticKernel.ChatCompletion.AuthorRole;
 using ChatHistory = Microsoft.SemanticKernel.ChatCompletion.ChatHistory;
+using LlmToolkit;
 
 namespace LLama.Examples.Examples
 {

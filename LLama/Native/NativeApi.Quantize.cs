@@ -1,4 +1,4 @@
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     public static partial class NativeApi
     {

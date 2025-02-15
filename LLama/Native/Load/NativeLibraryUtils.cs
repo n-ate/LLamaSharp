@@ -1,10 +1,10 @@
-using LLama.Abstractions;
-using LLama.Exceptions;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     internal static class NativeLibraryUtils
     {

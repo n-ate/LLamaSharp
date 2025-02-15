@@ -1,4 +1,4 @@
-﻿namespace LLama.Native;
+﻿namespace LlmToolkit.Native;
 
 /// <summary>
 /// Possible GGML quantisation types

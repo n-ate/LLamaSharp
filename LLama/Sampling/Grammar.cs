@@ -1,4 +1,4 @@
-namespace LLama.Sampling;
+namespace LlmToolkit.Sampling;
 
 /// <summary>
 /// A grammar in GBNF form

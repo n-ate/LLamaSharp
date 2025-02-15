@@ -2,7 +2,7 @@ using System;
 
 #pragma warning disable IDE1006 // Naming Styles
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// Direct translation of the llama.cpp API

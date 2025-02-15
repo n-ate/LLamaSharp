@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using LLama.Abstractions;
-using LLama.Exceptions;
-using LLama.Native;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Exceptions;
+using LlmToolkit.Native;
 using Microsoft.Extensions.Logging;
 
-namespace LLama;
+namespace LlmToolkit;
 
 /// <summary>
 /// Generate high dimensional embedding vectors from text

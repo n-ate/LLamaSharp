@@ -1,4 +1,4 @@
-using LLama.Sampling;
+using LlmToolkit.Sampling;
 using LLama.Web.Common;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;

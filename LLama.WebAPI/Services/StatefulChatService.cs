@@ -1,5 +1,7 @@
 using LLama.WebAPI.Models;
-using LLama.Sampling;
+using LlmToolkit;
+using LlmToolkit.Common;
+using LlmToolkit.Sampling;
 
 namespace LLama.WebAPI.Services;
 
@@ -15,7 +17,7 @@ public sealed class StatefulChatService
 
     public StatefulChatService(IConfiguration configuration, ILogger<StatefulChatService> logger)
     {
-        var @params = new Common.ModelParams(configuration["ModelPath"]!)
+        var @params = new ModelParams(configuration["ModelPath"]!)
         {
             ContextSize = 512,
         };
@@ -27,7 +29,7 @@ public sealed class StatefulChatService
         _context = new LLamaContext(weights, @params);
 
         _session = new ChatSession(new InteractiveExecutor(_context));
-        _session.History.AddMessage(Common.AuthorRole.System, SystemPrompt);
+        _session.History.AddMessage(AuthorRole.System, SystemPrompt);
     }
 
     public void Dispose()
@@ -45,8 +47,8 @@ public sealed class StatefulChatService
         }
         _logger.LogInformation("Input: {text}", input.Text);
         var outputs = _session.ChatAsync(
-            new Common.ChatHistory.Message(Common.AuthorRole.User, input.Text),
-            new Common.InferenceParams
+            new ChatHistory.Message(AuthorRole.User, input.Text),
+            new InferenceParams
             {
                 AntiPrompts = [ "User:" ],
 
@@ -77,8 +79,8 @@ public sealed class StatefulChatService
         _logger.LogInformation(input.Text);
 
         var outputs = _session.ChatAsync(
-            new Common.ChatHistory.Message(Common.AuthorRole.User, input.Text),
-            new Common.InferenceParams
+            new ChatHistory.Message(AuthorRole.User, input.Text),
+            new InferenceParams
             {
                 AntiPrompts = [ "User:" ],
 

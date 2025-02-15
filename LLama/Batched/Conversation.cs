@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama.Batched;
+namespace LlmToolkit.Batched;
 
 /// <summary>
 /// A single conversation thread that can be prompted (adding tokens from the user) or inferred (extracting a token from the LLM)

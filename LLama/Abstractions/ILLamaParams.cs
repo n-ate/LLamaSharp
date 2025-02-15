@@ -1,4 +1,5 @@
-﻿namespace LLama.Abstractions
+
+namespace LlmToolkit.Abstractions
 {
     /// <summary>
     /// Convenience interface for implementing both type of parameters.

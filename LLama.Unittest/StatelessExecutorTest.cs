@@ -1,6 +1,7 @@
 using System.Diagnostics;
-using LLama.Common;
-using LLama.Sampling;
+using LlmToolkit;
+using LlmToolkit.Common;
+using LlmToolkit.Sampling;
 using Xunit.Abstractions;
 
 namespace LLama.Unittest

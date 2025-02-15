@@ -1,7 +1,8 @@
 using System.Text;
-using LLama.Abstractions;
-using LLama.Common;
-using LLama.Sampling;
+using LlmToolkit;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Common;
+using LlmToolkit.Sampling;
 
 namespace LLama.Examples.Examples
 {

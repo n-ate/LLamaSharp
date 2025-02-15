@@ -1,6 +1,6 @@
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama.Sampling;
+namespace LlmToolkit.Sampling;
 
 /// <summary>
 /// A sampling pipeline which always selects the most likely token

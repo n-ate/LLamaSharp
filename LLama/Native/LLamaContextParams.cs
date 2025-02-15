@@ -1,6 +1,6 @@
 using System;
 
-namespace LLama.Native
+namespace LlmToolkit.Native
 {
     /// <summary>
     /// Called by llama.cpp with a progress value between 0 and 1

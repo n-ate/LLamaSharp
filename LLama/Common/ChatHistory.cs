@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace LLama.Common
+namespace LlmToolkit.Common
 {
     /// <summary>
     /// Role of the message author, e.g. user/assistant/system

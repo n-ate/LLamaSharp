@@ -5,9 +5,9 @@ using System.ComponentModel;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using LLama.Native;
+using LlmToolkit.Native;
 
-namespace LLama.Abstractions
+namespace LlmToolkit.Abstractions
 {
     /// <summary>
     /// The parameters for initializing a LLama model.

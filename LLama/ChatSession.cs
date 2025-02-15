@@ -6,13 +6,13 @@ using System.Runtime.CompilerServices;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using LLama.Abstractions;
-using LLama.Common;
-using static LLama.InteractiveExecutor;
-using static LLama.LLamaContext;
-using static LLama.StatefulExecutorBase;
+using LlmToolkit.Abstractions;
+using LlmToolkit.Common;
+using static LlmToolkit.InteractiveExecutor;
+using static LlmToolkit.LLamaContext;
+using static LlmToolkit.StatefulExecutorBase;
 
-namespace LLama;
+namespace LlmToolkit;
 
 /// <summary>
 /// The main chat session class.

@@ -1,10 +1,10 @@
-using LLama.Abstractions;
+using LlmToolkit.Abstractions;
 using System.Collections.Generic;
-using LLama.Native;
-using LLama.Sampling;
+using LlmToolkit.Native;
+using LlmToolkit.Sampling;
 using System;
 
-namespace LLama.Common
+namespace LlmToolkit.Common
 {
     /// <summary>
     /// The parameters used for inference.
